@@ -95,7 +95,6 @@ button {
   justify-content: center;
   align-items: center;
   gap: 32px;
-  border: red solid 1px;
 }
 
 .title {
@@ -128,4 +127,30 @@ button {
 .subtext {
   text-align: center;
   color: #6a6a6b;
+}
+
+/* Quote section */
+
+.quotecontainer {
+  display: flex;
+  background: #E5E7EB;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 100px 290px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.author {
+  font-weight: bold;
+  color: #1F2937;
+  font-size: 22px;
+  align-self: flex-end;
 }
