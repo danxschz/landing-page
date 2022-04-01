@@ -34,8 +34,15 @@ ul {
   list-style: none;
   display: flex;
   font-size: 18px;
-  color: #E5E7EB;
   gap: 32px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header a {
+  color: #E5E7EB;
 }
 
 .content {
@@ -107,7 +114,6 @@ button {
 .card {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
   gap: 12px;
   width: 150px;
@@ -199,5 +205,9 @@ button {
   background: #1F2937;
   padding: 40px;
   font-size: 18px;
+  color: #F9FAF8;
+}
+
+.footer a {
   color: #F9FAF8;
 }
